@@ -1,0 +1,48 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode files
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+!default.mode1v3
+!default.pbxuser
+
+# Build artifacts
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+Packages/
+Package.pins
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/metadata/
+
+# Archives
+*.xcarchive
+
+# Logs
+*.log
+
+# Environment & Secrets
+*.xcconfig
+*.keychain
